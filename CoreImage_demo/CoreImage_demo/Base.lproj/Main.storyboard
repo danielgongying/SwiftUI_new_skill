@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZNF-Fg-7lA">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CoreImage-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="CoreImage" id="BYZ-38-t0r" customClass="ViewController" customModule="CoreImage_demo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="j1C-gQ-8uF">
+                                <rect key="frame" x="0.0" y="214" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="feV-ft-2ij"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bWR-GM-N8H">
+                                <rect key="frame" x="28" y="587" width="358" height="31"/>
+                                <color key="minimumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="maximumTrackTintColor" red="1" green="0.3425646262" blue="0.41102415390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="thumbTintColor" red="0.79006009460000004" green="1" blue="0.4136796465" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="changeValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="4ez-vZ-5Tb"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="lMF-yN-LVf">
+                                <rect key="frame" x="28" y="637" width="358" height="31"/>
+                                <color key="minimumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="maximumTrackTintColor" red="1" green="0.3425646262" blue="0.41102415390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="thumbTintColor" red="0.4843343625" green="0.66666668650000005" blue="0.47221683920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bWR-GM-N8H" secondAttribute="trailing" constant="30" id="0CR-qS-5o3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j1C-gQ-8uF" secondAttribute="trailing" id="1v3-Tk-AYO"/>
+                            <constraint firstItem="bWR-GM-N8H" firstAttribute="top" secondItem="j1C-gQ-8uF" secondAttribute="bottom" constant="73" id="8HZ-iu-Slo"/>
+                            <constraint firstItem="bWR-GM-N8H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Cbe-IB-reL"/>
+                            <constraint firstItem="lMF-yN-LVf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cey-8g-w4P"/>
+                            <constraint firstItem="j1C-gQ-8uF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GVs-UK-8lY"/>
+                            <constraint firstItem="lMF-yN-LVf" firstAttribute="top" secondItem="bWR-GM-N8H" secondAttribute="bottom" constant="20" id="JU9-DX-Lt5"/>
+                            <constraint firstItem="bWR-GM-N8H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UDO-ae-hst"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lMF-yN-LVf" secondAttribute="trailing" constant="30" id="YXL-Rr-nX7"/>
+                            <constraint firstItem="lMF-yN-LVf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="dQF-OU-tgS"/>
+                            <constraint firstItem="j1C-gQ-8uF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="mVk-Ht-5re"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QpV-vr-3XU">
+                        <barButtonItem key="rightBarButtonItem" title="RESET" style="done" id="VBM-vU-8Kd">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="j1C-gQ-8uF" id="b5l-Hb-i1U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="810.14492753623199" y="106.47321428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pZf-Yk-9jb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZNF-Fg-7lA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xwG-05-nDp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0qw-f7-dSj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uKM-Bh-CJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100.00000000000001" y="106.47321428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2.jpg" width="600" height="401.25"/>
+    </resources>
+</document>
