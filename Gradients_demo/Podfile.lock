@@ -1,0 +1,16 @@
+PODS:
+  - Gradients (0.2.2)
+
+DEPENDENCIES:
+  - Gradients
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Gradients
+
+SPEC CHECKSUMS:
+  Gradients: 9c94ae3dfda450f1ccbb38126dde5f5b9736043c
+
+PODFILE CHECKSUM: 6cd3f52b7698d581c868fc4650ad4c60f3837d54
+
+COCOAPODS: 1.6.1

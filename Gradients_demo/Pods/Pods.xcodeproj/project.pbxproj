@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460ECAD3EF0B09BE3A0251E37F781A28 /* Gradients+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54386D5570A81BEF3DBA2373199642BE /* Gradients+Name.swift */; };
+		5472CBF14AC5023FF99C6707DCCBAD87 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA314A71FB1C324020315BA6A4B97759 /* Gradients.swift */; };
+		56412FC69442455D707248B23D1EA163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5D8969CE8925418BED95510FB05CACE1 /* Pods-Gradients_demoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A0EE51618793CFAECB7A4A0FC75114 /* Pods-Gradients_demoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F67AAECE294FBFE3AFA81BA32802342 /* Gradients+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEF99F588DE148DB6212A2B3EA71FF /* Gradients+Layer.swift */; };
+		719225BF72C4CAEEEF84AAC80F946D3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		739C259EEAE4397D2DDBC48760DFECEB /* Pods-Gradients_demoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4190FE49E13B568FA9BC573A137DBAC /* Pods-Gradients_demoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774D451C0A15A3D35F76F43FB838C00A /* Gradients-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E73111C0466D52247BCA71BD266BD46C /* Gradients-dummy.m */; };
+		82C1435CFFBC48CF2DA6BE9AD7A59F93 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35050A8DD9C95D9B424E68CAFDC7933B /* Direction.swift */; };
+		A5288F5469C9023E9644618A86C0AA1C /* Pods-Gradients_demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B3309F9F04A3A10C4ED3B0D209F56 /* Pods-Gradients_demo-dummy.m */; };
+		AA1967F57B14725E2BBEF69F5A162F16 /* Gradients-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC066E49B4C18EDF9189B5D26EB74A55 /* Gradients-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECCC4CD4BCAA69E8327A4018A327340 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19785040C3FE249AFF464D4A8026B2 /* Color+Extension.swift */; };
+		AF30457B13D330D519FE9DF71B10557B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C8B2012036040757FFCB10A9CB88A891 /* Pods-Gradients_demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 989E3123446E8E0794B7723F962C8E35 /* Pods-Gradients_demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB5C1D7C5440B1FE1CC067C88DDC9B1 /* Pods-Gradients_demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C13F084F4A0361C0F769FB5112BD1 /* Pods-Gradients_demoTests-dummy.m */; };
+		D304CCE9DFD8D86F1DF8139D85101496 /* Pods-Gradients_demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D0E7A68D4B3D73CA5A9C4503FEF20 /* Pods-Gradients_demoUITests-dummy.m */; };
+		FE12DBA5838A42AA9A6771DDC3F09091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF0E90E1973C197B57B86E4404A1072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35B5017BFBA6FB62A14A3D236268A8A;
+			remoteInfo = "Pods-Gradients_demo";
+		};
+		BC958BBFD1546997806850EF883BA554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35B5017BFBA6FB62A14A3D236268A8A;
+			remoteInfo = "Pods-Gradients_demo";
+		};
+		D3DE9BD01429911D934D126CB61E8D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D374BBEF5BF33D7ECE4BEB78C6AD896;
+			remoteInfo = Gradients;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040D0E7A68D4B3D73CA5A9C4503FEF20 /* Pods-Gradients_demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gradients_demoUITests-dummy.m"; sourceTree = "<group>"; };
+		0786C0ECB91667CC448934712CFE5122 /* Pods-Gradients_demoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gradients_demoTests-Info.plist"; sourceTree = "<group>"; };
+		0BFEF99F588DE148DB6212A2B3EA71FF /* Gradients+Layer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Gradients+Layer.swift"; path = "Gradients/Sources/Gradients+Layer.swift"; sourceTree = "<group>"; };
+		1AD5FBFA3A024E27607E0B39C0D5CC26 /* Pods_Gradients_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gradients_demo.framework; path = "Pods-Gradients_demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F0EA686E380F0536C7BBF268A3F954 /* Pods-Gradients_demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gradients_demo.modulemap"; sourceTree = "<group>"; };
+		2C37A34B911F51938C56DB0F11897DC9 /* Pods-Gradients_demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gradients_demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3B3309F9F04A3A10C4ED3B0D209F56 /* Pods-Gradients_demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gradients_demo-dummy.m"; sourceTree = "<group>"; };
+		33CB056C482E5ED530D90018080E3619 /* Pods-Gradients_demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gradients_demo-Info.plist"; sourceTree = "<group>"; };
+		35050A8DD9C95D9B424E68CAFDC7933B /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = Gradients/Sources/Direction.swift; sourceTree = "<group>"; };
+		3A19785040C3FE249AFF464D4A8026B2 /* Color+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Extension.swift"; path = "Gradients/Sources/Color+Extension.swift"; sourceTree = "<group>"; };
+		3A9B95CD021CFD60B98E2F93616F0685 /* Pods-Gradients_demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gradients_demo-frameworks.sh"; sourceTree = "<group>"; };
+		3E59FD11B0005C232B2086040D0C3CDC /* Pods-Gradients_demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gradients_demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47844F8990A9031862A767B8AAF4246E /* Gradients.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gradients.xcconfig; sourceTree = "<group>"; };
+		522E60661A5DE7BAA9543C9C6E8EB0C0 /* Pods-Gradients_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gradients_demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5323F1AD9EE77AB28CA96A6E9CF4BE56 /* Pods-Gradients_demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gradients_demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		54386D5570A81BEF3DBA2373199642BE /* Gradients+Name.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Gradients+Name.swift"; path = "Gradients/Sources/Gradients+Name.swift"; sourceTree = "<group>"; };
+		5D895D3851BE331440C1B60C8D808D52 /* Pods_Gradients_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gradients_demoTests.framework; path = "Pods-Gradients_demoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D18900D51CC1B7A151668563F3321D4 /* Pods-Gradients_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gradients_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		7123C2AF8B8AEF60C46C65463B1C90D7 /* Pods-Gradients_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gradients_demo.release.xcconfig"; sourceTree = "<group>"; };
+		71E662641E40495EF94F6B628705D96B /* Pods-Gradients_demoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gradients_demoUITests-Info.plist"; sourceTree = "<group>"; };
+		77C19798B2882B731F3C33DBAC55CA9C /* Pods-Gradients_demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gradients_demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78F2AB310A8D83A32F7BD9659BC5C4B7 /* Pods-Gradients_demoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gradients_demoTests.modulemap"; sourceTree = "<group>"; };
+		80F5CAD9323F07F731103A7D85467819 /* Pods-Gradients_demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gradients_demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E19C829115672CC67F2DD55864B7C95 /* Gradients-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gradients-prefix.pch"; sourceTree = "<group>"; };
+		9895D4BE972AFEAA4B653F49777CA9C4 /* Pods-Gradients_demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gradients_demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		989E3123446E8E0794B7723F962C8E35 /* Pods-Gradients_demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gradients_demo-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31C13F084F4A0361C0F769FB5112BD1 /* Pods-Gradients_demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gradients_demoTests-dummy.m"; sourceTree = "<group>"; };
+		AD2EC70C54B20561D27744055FEAFED1 /* Pods-Gradients_demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gradients_demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9CCA4DAB88EFD624FEF025B006028CD /* Pods-Gradients_demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gradients_demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9FB850CA7DAC0C2A49249D20E27426C /* Gradients.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gradients.framework; path = Gradients.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDA22D5B3F753BDC335522E9E520E69F /* Gradients-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gradients-Info.plist"; sourceTree = "<group>"; };
+		D1ADCC529DFE230DE75CC049693A033D /* Pods_Gradients_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gradients_demoUITests.framework; path = "Pods-Gradients_demoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4190FE49E13B568FA9BC573A137DBAC /* Pods-Gradients_demoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gradients_demoTests-umbrella.h"; sourceTree = "<group>"; };
+		E73111C0466D52247BCA71BD266BD46C /* Gradients-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gradients-dummy.m"; sourceTree = "<group>"; };
+		EA314A71FB1C324020315BA6A4B97759 /* Gradients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gradients.swift; path = Gradients/Sources/Gradients.swift; sourceTree = "<group>"; };
+		EBD28FDA0B826DE64FAA74F76959A8E4 /* Pods-Gradients_demoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gradients_demoUITests.modulemap"; sourceTree = "<group>"; };
+		EC066E49B4C18EDF9189B5D26EB74A55 /* Gradients-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gradients-umbrella.h"; sourceTree = "<group>"; };
+		ECC7A53ACF8133FDB063F0F17DCC2F34 /* Gradients.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gradients.modulemap; sourceTree = "<group>"; };
+		F9A0EE51618793CFAECB7A4A0FC75114 /* Pods-Gradients_demoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gradients_demoUITests-umbrella.h"; sourceTree = "<group>"; };
+		FCD88F5D100138BBF08512B1C719A3A6 /* Pods-Gradients_demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gradients_demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07494F71D388B179D8418073CEA18902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF30457B13D330D519FE9DF71B10557B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902C09B1EAD1FE0ED399F2D59678D981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE12DBA5838A42AA9A6771DDC3F09091 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5BA59451D09458FE14EACA24F40B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56412FC69442455D707248B23D1EA163 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24665DF01ED146836AECD11989AD5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719225BF72C4CAEEEF84AAC80F946D3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD1373405C076A09F4449740C9C7F44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BBA33F9908AE23F8A941A3E8BF5E93C /* Gradients */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BBA33F9908AE23F8A941A3E8BF5E93C /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				3A19785040C3FE249AFF464D4A8026B2 /* Color+Extension.swift */,
+				35050A8DD9C95D9B424E68CAFDC7933B /* Direction.swift */,
+				EA314A71FB1C324020315BA6A4B97759 /* Gradients.swift */,
+				0BFEF99F588DE148DB6212A2B3EA71FF /* Gradients+Layer.swift */,
+				54386D5570A81BEF3DBA2373199642BE /* Gradients+Name.swift */,
+				5BAC3C2354625E007D5F4B751879CD95 /* Support Files */,
+			);
+			name = Gradients;
+			path = Gradients;
+			sourceTree = "<group>";
+		};
+		5BAC3C2354625E007D5F4B751879CD95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7A53ACF8133FDB063F0F17DCC2F34 /* Gradients.modulemap */,
+				47844F8990A9031862A767B8AAF4246E /* Gradients.xcconfig */,
+				E73111C0466D52247BCA71BD266BD46C /* Gradients-dummy.m */,
+				CDA22D5B3F753BDC335522E9E520E69F /* Gradients-Info.plist */,
+				8E19C829115672CC67F2DD55864B7C95 /* Gradients-prefix.pch */,
+				EC066E49B4C18EDF9189B5D26EB74A55 /* Gradients-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gradients";
+			sourceTree = "<group>";
+		};
+		6152C1110D48447BDFB1CAC3AD020006 /* Pods-Gradients_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD28FDA0B826DE64FAA74F76959A8E4 /* Pods-Gradients_demoUITests.modulemap */,
+				3E59FD11B0005C232B2086040D0C3CDC /* Pods-Gradients_demoUITests-acknowledgements.markdown */,
+				AD2EC70C54B20561D27744055FEAFED1 /* Pods-Gradients_demoUITests-acknowledgements.plist */,
+				040D0E7A68D4B3D73CA5A9C4503FEF20 /* Pods-Gradients_demoUITests-dummy.m */,
+				71E662641E40495EF94F6B628705D96B /* Pods-Gradients_demoUITests-Info.plist */,
+				F9A0EE51618793CFAECB7A4A0FC75114 /* Pods-Gradients_demoUITests-umbrella.h */,
+				2C37A34B911F51938C56DB0F11897DC9 /* Pods-Gradients_demoUITests.debug.xcconfig */,
+				B9CCA4DAB88EFD624FEF025B006028CD /* Pods-Gradients_demoUITests.release.xcconfig */,
+			);
+			name = "Pods-Gradients_demoUITests";
+			path = "Target Support Files/Pods-Gradients_demoUITests";
+			sourceTree = "<group>";
+		};
+		617C68C6D2C4FC044C09329A86ADEEF8 /* Pods-Gradients_demo */ = {
+			isa = PBXGroup;
+			children = (
+				29F0EA686E380F0536C7BBF268A3F954 /* Pods-Gradients_demo.modulemap */,
+				FCD88F5D100138BBF08512B1C719A3A6 /* Pods-Gradients_demo-acknowledgements.markdown */,
+				9895D4BE972AFEAA4B653F49777CA9C4 /* Pods-Gradients_demo-acknowledgements.plist */,
+				2C3B3309F9F04A3A10C4ED3B0D209F56 /* Pods-Gradients_demo-dummy.m */,
+				3A9B95CD021CFD60B98E2F93616F0685 /* Pods-Gradients_demo-frameworks.sh */,
+				33CB056C482E5ED530D90018080E3619 /* Pods-Gradients_demo-Info.plist */,
+				989E3123446E8E0794B7723F962C8E35 /* Pods-Gradients_demo-umbrella.h */,
+				6D18900D51CC1B7A151668563F3321D4 /* Pods-Gradients_demo.debug.xcconfig */,
+				7123C2AF8B8AEF60C46C65463B1C90D7 /* Pods-Gradients_demo.release.xcconfig */,
+			);
+			name = "Pods-Gradients_demo";
+			path = "Target Support Files/Pods-Gradients_demo";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A523544182ED408037351E5F07B7BB8A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				617C68C6D2C4FC044C09329A86ADEEF8 /* Pods-Gradients_demo */,
+				CF536A7D6FD241055B6BA1D19DEA6E6A /* Pods-Gradients_demoTests */,
+				6152C1110D48447BDFB1CAC3AD020006 /* Pods-Gradients_demoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC7912FE6674ED56AA6361E49EDF86DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9FB850CA7DAC0C2A49249D20E27426C /* Gradients.framework */,
+				1AD5FBFA3A024E27607E0B39C0D5CC26 /* Pods_Gradients_demo.framework */,
+				5D895D3851BE331440C1B60C8D808D52 /* Pods_Gradients_demoTests.framework */,
+				D1ADCC529DFE230DE75CC049693A033D /* Pods_Gradients_demoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3DD1373405C076A09F4449740C9C7F44 /* Pods */,
+				AC7912FE6674ED56AA6361E49EDF86DA /* Products */,
+				A523544182ED408037351E5F07B7BB8A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF536A7D6FD241055B6BA1D19DEA6E6A /* Pods-Gradients_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				78F2AB310A8D83A32F7BD9659BC5C4B7 /* Pods-Gradients_demoTests.modulemap */,
+				80F5CAD9323F07F731103A7D85467819 /* Pods-Gradients_demoTests-acknowledgements.markdown */,
+				5323F1AD9EE77AB28CA96A6E9CF4BE56 /* Pods-Gradients_demoTests-acknowledgements.plist */,
+				A31C13F084F4A0361C0F769FB5112BD1 /* Pods-Gradients_demoTests-dummy.m */,
+				0786C0ECB91667CC448934712CFE5122 /* Pods-Gradients_demoTests-Info.plist */,
+				D4190FE49E13B568FA9BC573A137DBAC /* Pods-Gradients_demoTests-umbrella.h */,
+				77C19798B2882B731F3C33DBAC55CA9C /* Pods-Gradients_demoTests.debug.xcconfig */,
+				522E60661A5DE7BAA9543C9C6E8EB0C0 /* Pods-Gradients_demoTests.release.xcconfig */,
+			);
+			name = "Pods-Gradients_demoTests";
+			path = "Target Support Files/Pods-Gradients_demoTests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72DADA84CA42AA823B2503828E91419F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739C259EEAE4397D2DDBC48760DFECEB /* Pods-Gradients_demoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BC4252034DFBCD2A1BB73F94B27F68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8969CE8925418BED95510FB05CACE1 /* Pods-Gradients_demoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDC74C7E70F8142760BF37AC9CAE303 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B2012036040757FFCB10A9CB88A891 /* Pods-Gradients_demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5FD49631AB799EC567AF6519E02500 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1967F57B14725E2BBEF69F5A162F16 /* Gradients-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D8FA4FFAB67A37D495CEC90E1A33E25 /* Pods-Gradients_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88833E66A95F8452C50F48B58E327B7 /* Build configuration list for PBXNativeTarget "Pods-Gradients_demoUITests" */;
+			buildPhases = (
+				A6BC4252034DFBCD2A1BB73F94B27F68 /* Headers */,
+				0F2C7C3F769486FEA538EB6AB3E5AC45 /* Sources */,
+				07494F71D388B179D8418073CEA18902 /* Frameworks */,
+				7851D88C17C9852396D3F6280C8C0ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1811BBBDB6F29BA0AB63D17064575D2A /* PBXTargetDependency */,
+			);
+			name = "Pods-Gradients_demoUITests";
+			productName = "Pods-Gradients_demoUITests";
+			productReference = D1ADCC529DFE230DE75CC049693A033D /* Pods_Gradients_demoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D374BBEF5BF33D7ECE4BEB78C6AD896 /* Gradients */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CAFC6458656876825BC896CC96D483 /* Build configuration list for PBXNativeTarget "Gradients" */;
+			buildPhases = (
+				CC5FD49631AB799EC567AF6519E02500 /* Headers */,
+				0907382C690C60D85F1712CC968BF9B9 /* Sources */,
+				902C09B1EAD1FE0ED399F2D59678D981 /* Frameworks */,
+				F35489CC89FD47596A24B7A1434BBFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gradients;
+			productName = Gradients;
+			productReference = C9FB850CA7DAC0C2A49249D20E27426C /* Gradients.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B35B5017BFBA6FB62A14A3D236268A8A /* Pods-Gradients_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4712CEF21D4B71A99C36310211E3021F /* Build configuration list for PBXNativeTarget "Pods-Gradients_demo" */;
+			buildPhases = (
+				AEDC74C7E70F8142760BF37AC9CAE303 /* Headers */,
+				CA05CC743B4CAAB291A5701DF69BADC0 /* Sources */,
+				DF5BA59451D09458FE14EACA24F40B23 /* Frameworks */,
+				79FE0E2AA4F4376DF70E2A153D2415B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C621A62639ED2D5FF78BEB0E1A41BFDE /* PBXTargetDependency */,
+			);
+			name = "Pods-Gradients_demo";
+			productName = "Pods-Gradients_demo";
+			productReference = 1AD5FBFA3A024E27607E0B39C0D5CC26 /* Pods_Gradients_demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD4A19C5F824209529C3672217896A2C /* Pods-Gradients_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE24F78024684DF857445CD221921C4 /* Build configuration list for PBXNativeTarget "Pods-Gradients_demoTests" */;
+			buildPhases = (
+				72DADA84CA42AA823B2503828E91419F /* Headers */,
+				E592DDFEA2570A5F88D3EEE91912D9D6 /* Sources */,
+				F24665DF01ED146836AECD11989AD5D1 /* Frameworks */,
+				31FD024A1AAA3BFB6BC168741F8091A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25A0B6DB2E31734177C5CD09ACE53DD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Gradients_demoTests";
+			productName = "Pods-Gradients_demoTests";
+			productReference = 5D895D3851BE331440C1B60C8D808D52 /* Pods_Gradients_demoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AC7912FE6674ED56AA6361E49EDF86DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D374BBEF5BF33D7ECE4BEB78C6AD896 /* Gradients */,
+				B35B5017BFBA6FB62A14A3D236268A8A /* Pods-Gradients_demo */,
+				FD4A19C5F824209529C3672217896A2C /* Pods-Gradients_demoTests */,
+				5D8FA4FFAB67A37D495CEC90E1A33E25 /* Pods-Gradients_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FD024A1AAA3BFB6BC168741F8091A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7851D88C17C9852396D3F6280C8C0ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FE0E2AA4F4376DF70E2A153D2415B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35489CC89FD47596A24B7A1434BBFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0907382C690C60D85F1712CC968BF9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECCC4CD4BCAA69E8327A4018A327340 /* Color+Extension.swift in Sources */,
+				82C1435CFFBC48CF2DA6BE9AD7A59F93 /* Direction.swift in Sources */,
+				5F67AAECE294FBFE3AFA81BA32802342 /* Gradients+Layer.swift in Sources */,
+				460ECAD3EF0B09BE3A0251E37F781A28 /* Gradients+Name.swift in Sources */,
+				774D451C0A15A3D35F76F43FB838C00A /* Gradients-dummy.m in Sources */,
+				5472CBF14AC5023FF99C6707DCCBAD87 /* Gradients.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2C7C3F769486FEA538EB6AB3E5AC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D304CCE9DFD8D86F1DF8139D85101496 /* Pods-Gradients_demoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA05CC743B4CAAB291A5701DF69BADC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5288F5469C9023E9644618A86C0AA1C /* Pods-Gradients_demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E592DDFEA2570A5F88D3EEE91912D9D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB5C1D7C5440B1FE1CC067C88DDC9B1 /* Pods-Gradients_demoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1811BBBDB6F29BA0AB63D17064575D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Gradients_demo";
+			target = B35B5017BFBA6FB62A14A3D236268A8A /* Pods-Gradients_demo */;
+			targetProxy = 3FF0E90E1973C197B57B86E4404A1072 /* PBXContainerItemProxy */;
+		};
+		25A0B6DB2E31734177C5CD09ACE53DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Gradients_demo";
+			target = B35B5017BFBA6FB62A14A3D236268A8A /* Pods-Gradients_demo */;
+			targetProxy = BC958BBFD1546997806850EF883BA554 /* PBXContainerItemProxy */;
+		};
+		C621A62639ED2D5FF78BEB0E1A41BFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gradients;
+			target = 8D374BBEF5BF33D7ECE4BEB78C6AD896 /* Gradients */;
+			targetProxy = D3DE9BD01429911D934D126CB61E8D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2114E89ABF7FBD2D2835C9CC53B088AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7123C2AF8B8AEF60C46C65463B1C90D7 /* Pods-Gradients_demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gradients_demo/Pods-Gradients_demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gradients_demo/Pods-Gradients_demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5233A3CF174543779AD1B3E8A0FBE233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C19798B2882B731F3C33DBAC55CA9C /* Pods-Gradients_demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gradients_demoTests/Pods-Gradients_demoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gradients_demoTests/Pods-Gradients_demoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		978A5D6B8893346E34D4635956E769A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C37A34B911F51938C56DB0F11897DC9 /* Pods-Gradients_demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gradients_demoUITests/Pods-Gradients_demoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gradients_demoUITests/Pods-Gradients_demoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC63347CC7F64CF8C663A1DF5F30CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D18900D51CC1B7A151668563F3321D4 /* Pods-Gradients_demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gradients_demo/Pods-Gradients_demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gradients_demo/Pods-Gradients_demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B464AC65714F3BC3C64D0D3B795AB9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CCA4DAB88EFD624FEF025B006028CD /* Pods-Gradients_demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gradients_demoUITests/Pods-Gradients_demoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gradients_demoUITests/Pods-Gradients_demoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B553E669ABB86C240D62F7B3664A08D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47844F8990A9031862A767B8AAF4246E /* Gradients.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gradients/Gradients-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gradients/Gradients-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gradients/Gradients.modulemap";
+				PRODUCT_MODULE_NAME = Gradients;
+				PRODUCT_NAME = Gradients;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B87D0AB46D72710D88E87E6E40044EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47844F8990A9031862A767B8AAF4246E /* Gradients.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gradients/Gradients-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gradients/Gradients-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gradients/Gradients.modulemap";
+				PRODUCT_MODULE_NAME = Gradients;
+				PRODUCT_NAME = Gradients;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FAB43A5E7AAEE5BB3527D0B5B153540F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522E60661A5DE7BAA9543C9C6E8EB0C0 /* Pods-Gradients_demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gradients_demoTests/Pods-Gradients_demoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gradients_demoTests/Pods-Gradients_demoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4712CEF21D4B71A99C36310211E3021F /* Build configuration list for PBXNativeTarget "Pods-Gradients_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC63347CC7F64CF8C663A1DF5F30CE30 /* Debug */,
+				2114E89ABF7FBD2D2835C9CC53B088AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CAFC6458656876825BC896CC96D483 /* Build configuration list for PBXNativeTarget "Gradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B553E669ABB86C240D62F7B3664A08D9 /* Debug */,
+				B87D0AB46D72710D88E87E6E40044EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88833E66A95F8452C50F48B58E327B7 /* Build configuration list for PBXNativeTarget "Pods-Gradients_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978A5D6B8893346E34D4635956E769A4 /* Debug */,
+				B464AC65714F3BC3C64D0D3B795AB9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE24F78024684DF857445CD221921C4 /* Build configuration list for PBXNativeTarget "Pods-Gradients_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5233A3CF174543779AD1B3E8A0FBE233 /* Debug */,
+				FAB43A5E7AAEE5BB3527D0B5B153540F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

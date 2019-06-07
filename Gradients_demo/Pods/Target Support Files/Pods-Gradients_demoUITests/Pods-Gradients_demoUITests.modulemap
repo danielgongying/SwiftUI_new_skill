@@ -1,0 +1,6 @@
+framework module Pods_Gradients_demoUITests {
+  umbrella header "Pods-Gradients_demoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
