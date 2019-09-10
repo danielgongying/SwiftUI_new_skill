@@ -15,7 +15,10 @@ struct ContentView : View {
         NavigationView {
             List {
                 VStack(alignment:.leading){
-                    Text("trending")
+                    NavigationButton(destination: groupDetailView()) {
+                        Text("trending").color(.black).font(.title).blur(radius: 0.3, opaque: false)
+                    }
+                    
                     ScrollView {
                         VStack(alignment:.leading) {
                          
@@ -23,8 +26,7 @@ struct ContentView : View {
                                 NavigationButton(destination: groupDetailView()) {
                                     groupView()
                                 }
-                        
-                                groupView()
+                                
                                 groupView()
                                 groupView()
                                 groupView()
@@ -47,7 +49,7 @@ struct ContentView : View {
                     
                 }
             }
-        }.navigationBarTitle(Text("Groups"), displayMode: NavigationBarItem.TitleDisplayMode.large)
+        }.navigationBarTitle(Text("Groups").font(.largeTitle), displayMode: NavigationBarItem.TitleDisplayMode.large)
     }
 }
 struct groupDetailView:View {
@@ -63,7 +65,10 @@ struct groupView:View {
                 .resizable()
                 .clipShape(Circle())
                 .frame(width: 80, height: 80, alignment: .center)
-                .clipped()                .overlay(Circle().stroke(Color.gray,lineWidth: 2))
+                .clipped()
+                .overlay(Circle().stroke(Color.gray,lineWidth: 2))
+        
+            
             
             Text("this is what i want ")
                 .color(.primary)//button蓝色覆盖

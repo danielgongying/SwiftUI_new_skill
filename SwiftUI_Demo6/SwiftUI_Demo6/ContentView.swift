@@ -17,6 +17,8 @@ struct ContentView : View {
     @State var items = (0..<5).map { "Seg \($0)" }
     @State var currentIndex = 0
     @ObjectBinding var server = DateServer()
+      @State var fruit = ""
+    
     var body: some View {
     
         VStack {
@@ -57,6 +59,9 @@ struct ContentView : View {
                 }
                 }.tapAction {
                     print("currentIndex: \(self.currentIndex)")
+                    self.title += String(self.currentIndex)
+                    
+                    
             }
             .background(Color.purple)
             
@@ -74,27 +79,44 @@ struct ContentView : View {
           
                 
                     .cornerRadius(5).border(Color.black, width: 1).padding(.leading,10).padding(.trailing,10)
+            } .presentation($show) { () -> Alert in
+//                Alert(title: Text(self.title))
+                Alert(title: Text(self.title), message: Text("内容消息"), dismissButton: .destructive(Text("确定")))
             }
+      
             if show {
-               Text("fdfdsfs")
+               Text("点击buttton的详情").color(.orange).font(.largeTitle).animation(.basic(duration: 1, curve: BasicAnimationTimingCurve.easeInOut))
+//                .transition(.scale()).transition(.opacity)
                 //点击只有如何改变原来Button的一些属性
             }else{
-                
-                Image("headphone").resizable()
-                    .frame(width: 90, height: 90, alignment: .bottom)
-                    .clipShape(Circle()).clipped()
-                .animation(.basic(duration: 1, curve: .easeInOut))
-                Image("headphone").resizable()
-                    .frame(width: 90, height: 90, alignment: .bottom)
-                    .clipShape(Circle()).clipped()
-                    .animation(.spring(mass: 1, stiffness: 2, damping: 1, initialVelocity: 5))
-                Image("headphone").resizable()
-                    .frame(width: 90, height: 90, alignment: .bottom)
-                    .clipShape(Circle()).clipped()
-                    .animation(.basic(duration: 2, curve: .linear))
-                .rotationEffect(Angle(degrees: 180))
+                HStack{
+                    Image("headphone").resizable()
+                        .frame(width: 90, height: 90, alignment: .bottom)
+                        .clipShape(Circle()).clipped()
+                        .animation(.basic(duration: 1, curve: .easeInOut))
+                    Image("headphone").resizable()
+                        .frame(width: 90, height: 90, alignment: .bottom)
+                        .clipShape(Circle()).clipped()
+                        .animation(.spring(mass: 1, stiffness: 2, damping: 1, initialVelocity: 5))
+                    Image("headphone").resizable()
+                        .frame(width: 90, height: 90, alignment: .bottom)
+                        .clipShape(Circle()).clipped()
+                        .animation(.spring())
+                        .rotationEffect(Angle(degrees: 180))
+                    
+             
+                }.animation(.spring()).transition(.slide)
                 
             }
+            TextField($fruit, placeholder: Text("请输入内容").font(.largeTitle), onEditingChanged: { (isChanged) in
+                print(isChanged)
+            }) {
+                print("commit")
+              
+              
+                }.background(Color.white)
+            
+          
         }
     }
 }
@@ -105,6 +127,8 @@ class DateServer: BindableObject {
         didSet {
             didChange.send(self)
             print("Date Changed: \(date)")
+            
+            
         }
     }
 }

@@ -14,6 +14,7 @@ struct ContentView : View {
     @State var value = 10
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
+            
     
             Button(action: {
                 self.showDetails.toggle()
@@ -26,7 +27,7 @@ struct ContentView : View {
                 
             }
             if showDetails{
-                Text("this is the details,rerewfadfjkljklj jiouieouwr m,jkl dlksjf lajfkl as").font(.largeTitle)
+                Text("this is the details,rerewfadfjkljklj jiouieouwr m,jkl dlksjf lajfkl as").font(.largeTitle).animation(.spring())
                 .lineLimit(nil)
             }
             HStack(alignment: VerticalAlignment.bottom, spacing: 10) {
